@@ -1,8 +1,7 @@
 import ModeTabs from "./components/ModeTabs.jsx";
-import TimerCard from "./components/TimerCard.jsx";
+import TimerCard from "./components/TimerCard.jsxs";
 import { usePomodoro } from "./hooks/usePomodoro.js";
 import SettingsCard from "./components/SettingsCard.jsx";
-
 
 export default function App() {
   const {
@@ -14,7 +13,6 @@ export default function App() {
     setModeAndReset,
     toggleRun,
     reset,
-    
   } = usePomodoro();
 
   return (
